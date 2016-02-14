@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+function initMap() {
+  var myLatLng = {lat: 10.32, lng: 76.23};
+var myLongLng = {lat: 10.3, lng: 76.24};
+var myLongLng2 = {lat: 10.3, lng: 76.25};
+var myLongLng3 = {lat: 10.304, lng: 76.25};
+var myLongLng4 = {lat: 10.31, lng: 76.25};
+var myLongLng5 = {lat: 10.305, lng: 76.25};
+var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+  var marker = new google.maps.Marker({
+    position: myLongLng,
+    map: map,
+    title: 'Bye World!'
+  });
+  var marker = new google.maps.Marker({
+    position: myLongLng2,
+    map: map,
+    title: 'Bye World!'
+  });
+  
+  var marker = new google.maps.Marker({
+    position: myLongLng3,
+    map: map,
+    title: 'Bye World!'
+  });
+  var marker = new google.maps.Marker({
+    position: myLongLng4,
+    map: map,
+    title: 'Bye World!'
+  });
+  var marker = new google.maps.Marker({
+    position: myLongLng5,
+    map: map,
+    title: 'Bye World!'
+  });
+  
+}
+
+    </script>
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZPvhy1LHmAY2nzqaR0PQeb6XluRiD-HQ&signed_in=true&callback=initMap"></script>
+   
+ </body>
+</html>

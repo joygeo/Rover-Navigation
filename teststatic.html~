@@ -1,0 +1,6 @@
+<html>
+<body>
+<img src="http://maps.google.com/maps/api/staticmap?center=9.095014,76.492425&zoom=16&size=1200x600&markers=size:mid|color:red|label:A|9.095014,76.492425&sensor=false">
+
+</body>
+</html>
