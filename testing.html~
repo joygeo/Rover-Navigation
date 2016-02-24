@@ -1,0 +1,9 @@
+<html>
+<body>
+
+</body>
+<script>
+ var map = Maps.newStaticMap().addMarker(40.741799, -74.004207);
+
+</script>
+</html>
